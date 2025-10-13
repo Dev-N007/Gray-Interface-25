@@ -1,0 +1,5 @@
+# Ignore this file itself
+.gitignore
+
+# Ignore CODEOWNERS file
+.github/CODEOWNERS
