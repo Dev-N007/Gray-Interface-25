@@ -8,7 +8,11 @@ Neural style transfer is a technique that applies the artistic style of one imag
 
 ## Link
 
+1. **Custom Model:**
 https://colab.research.google.com/drive/12zktQ8BdUF-3LDXvIEShWsQ-aIKQhofl?usp=sharing
+
+2. **Pre-trained Model:**
+https://colab.research.google.com/drive/1xZjAsrQj99h8KX61LPmendmphCPvpaqL?usp=sharing
 
 ## Features
 
@@ -30,13 +34,9 @@ https://colab.research.google.com/drive/12zktQ8BdUF-3LDXvIEShWsQ-aIKQhofl?usp=sh
 
 1. **Install Required Libraries**
 
-   If you're running this outside of Google Colab, install the necessary packages:
-
-   """
     pip install tensorflow numpy matplotlib pillow
-   """
 
-2. **Prepare Your Images**
+2. **Preparing Images**
 
     Choose a content image 
     Choose a style image 
@@ -46,9 +46,8 @@ https://colab.research.google.com/drive/12zktQ8BdUF-3LDXvIEShWsQ-aIKQhofl?usp=sh
 
 4.  **Execute the following code block at the end of the notebook:**
 
-    """
     result = style_transfer("/content/big_ben.jpeg", "/content/starry_night.jpeg", epochs=1000, lr=0.02)
     show_image(result, "Final Stylized Image")
-    """
 
 5. **Show the output after every 50 epochs**
+
